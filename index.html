@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KrakLaunch - Skuteczny Marketing Online</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img id="logo" src="logo.png" alt="KrakLaunch Logo">
+            <nav>
+                <a href="#about">O nas</a>
+                <a href="#services">Nasze usługi</a>
+                <a href="#contact">Kontakt</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <h1>Więcej klientów</br> Więcej zysków</br> Mniej problemów</h1>
+        <button id="scrollBtn">Dowiedz się więcej</button>
+    </section>
+
+    <section id="about">
+        <h2>O nas</h2>
+        <p>Pomagamy firmom rosnąć dzięki skutecznemu marketingowi w social media i profesjonalnym materiałom video. 
+        Tworzymy strategie, które zwiększają zasięgi, budują zaangażowanie i przyciągają klientów. 
+        Wiemy, co działa, bo sami testujemy nasze rozwiązania na różnych rynkach. 
+        Stawiamy na efektywność i konkretne wyniki, zamiast pustych obietnic.</p>
+        <a href="#contact" class="btn">Skontaktuj się</a>
+    </section>
+
+    <section id="services">
+        <h2>Usługi</h2>
+        <div class="services-container">
+        <div class="service">
+            <h3>Marketing Video</h3>
+            <p>Tworzymy angażujące materiały video, które sprzedają.</p>
+            <ul>
+                <li>Montaż, animacje, edycja treści</li>
+                <li>Reelsy, TikToki, reklamy na Facebooka</li>
+                <li>Video promocyjne dla firm</li>
+            </ul>
+            <a href="#contact" class="btn">Umów spotkanie</a>
+        </div>
+
+        <div class="service">
+            <h3>Prowadzenie Social Media</h3>
+            <p>Zwiększamy Twoją obecność online i budujemy zaangażowaną społeczność.</p>
+            <ul>
+                <li>Zarządzanie profilami FB, IG, LinkedIn</li>
+                <li>Tworzenie postów i grafik</li>
+                <li>Planowanie kampanii contentowych</li>
+            </ul>
+            <a href="#contact" class="btn">Umów spotkanie</a>
+        </div>
+
+        <div class="service">
+            <h3>🎯 Kampanie Reklamowe (Facebook & Instagram Ads)</h3>
+            <p>Zwiększ sprzedaż i rozpoznawalność dzięki precyzyjnym reklamom!</p>
+            <ul>
+                <li>Targetowanie i analiza rynku</li>
+                <li>Tworzenie skutecznych kampanii</li>
+                <li>Monitoring i optymalizacja</li>
+            </ul>
+            <a href="#contact" class="btn">Umów spotkanie</a>
+        </div>
+    </div>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <p>Masz pytania? Chcesz rozpocząć współpracę? Skontaktuj się z nami!</p>
+        <p>Email: <a href="mailto:kraklaunch@gmail.com">kraklaunch@gmail.com</a></p>
+        <p>Telefon: <a href="tel:+48531662497">+48 531 662 497</a></p>
+        <p>Lokalizacja: Kraków, Polska</p>
+
+        <h3>Social Media</h3>
+        <div class="social">
+            <a href="https://www.linkedin.com/company/kraklaunch/"><i class="fa-brands fa-linkedin"></i></a> | <a href="https://www.facebook.com/profile.php?id=61573080875498"><i class="fa-brands fa-facebook-f"></i></a>
+        </div>
+
+        <form action="https://formspree.io/f/myzknlyw" method="POST">
+            <label for="name">Imię i nazwisko:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="_replyto" required>
+            
+            <label for="message">Wiadomość:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Wyślij</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 KrakLaunch. Wszelkie prawa zastrzeżone.</p>
+        <p>Designed with ❤️ in Kraków.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
